@@ -1,0 +1,78 @@
+.app {
+  display: flex;
+  min-height: 100vh;
+  background-color: #fceecf;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #d8ebff;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.sidebar a {
+  display: block;
+  margin: 10px 0;
+  text-decoration: none;
+  color: #333;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #e0f0ff;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  color: #000;
+}
+
+.card.red {
+  background-color: #ff6b6b;
+  color: #fff;
+}
+
+.user-card {
+  background-color: #cce3ff;
+}
+
+.therapist-grid {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.therapist-card {
+  flex: 1;
+  padding: 20px;
+  border-radius: 12px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.therapist-card.purple {
+  background-color: #b19cd9;
+}
+
+.therapist-card.red {
+  background-color: #f44336;
+}
+
+.therapist-card.gold {
+  background-color: #f4c430;
+}
